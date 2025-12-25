@@ -70,3 +70,20 @@ Berdasarkan struktur source code saat ini:
 │   └── index.css        # Konfigurasi Tailwind Global
 ├── index.html
 └── vite.config.js
+
+💻 Cara Menjalankan (Installation Guide)
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputermu:
+
+Clone Repository Buka terminal dan download source code ini:
+
+git clone [https://github.com/enjeliaa/Web-Portofolio-Anjeliaa.git](https://github.com/enjeliaa/Web-Portofolio-Anjeliaa.git)
+Masuk ke Folder Proyek
+
+cd Web-Portofolio-Anjeliaa
+Install Dependencies Install semua library yang dibutuhkan (React, Tailwind, dll):
+
+npm install
+Jalankan Server Lokal Hidupkan website dalam mode development:
+
+npm run dev
+Buka di Browser Klik link yang muncul di terminal, biasanya: http://localhost:5173
