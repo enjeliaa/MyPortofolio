@@ -4,86 +4,61 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-Portofolio pribadi yang dibangun menggunakan **React.js** dan **Tailwind CSS**. Website ini dirancang untuk menampilkan profil saya sebagai Mahasiswa Sistem Komputer yang memiliki minat dalam Web Development, Network Administration, dan Data Mining.
+Personal portfolio built using React.js and Tailwind CSS. This website is designed to showcase my profile as a Computer Systems Student with interests in Web Development, Network Administration, and Data Mining.
 
-## 👤 Tentang Saya
+👤 About Me
+Anjelia Hidayat
+Computer Systems Student at Sriwijaya University
+I have growing technical experience in full-stack web implementation, server management (Linux/SSH), and data analysis. I am also active in organizational administration through the Student Association (HIMA).
 
-**Anjelia Hidayat** *Mahasiswa Sistem Komputer @ Universitas Sriwijaya* 
+🚀 Projects Showcase
+1. Dynamic Web Rating & Review System
+Sep 2025 – Oct 2025
+A full-stack web application that allows users to give star ratings and product reviews.
 
-Saya memiliki pengalaman teknis yang terus berkembang dalam implementasi web full-stack, manajemen server (Linux/SSH), dan analisis data. Saya juga aktif dalam administrasi organisasi melalui Himpunan Mahasiswa (HIMA).
+Admin Feature: Secure Admin Dashboard with login functionality and CRUD operations to manage data.
+Tech Stack: HTML, CSS, Python, Flask, JSON
 
-## 🚀 Projects Showcase
 
-Website ini memuat dokumentasi dari proyek-proyek akademik yang telah saya selesaikan:
+2. Server Administration & Load Balancing
+Nov 2025 – Dec 2025
+Configured and optimized web server performance using Load Balancing techniques to efficiently distribute traffic.
 
-### 1. Dynamic Web Rating & Review System
-*Sep 2025 - Oct 2025*
-* **Deskripsi:** Aplikasi web full-stack yang memungkinkan pengguna memberikan rating bintang dan ulasan produk.
-* **Fitur Admin:** Dashboard Admin yang aman dengan fitur login dan operasi CRUD (Create, Read, Update, Delete) untuk mengelola data.
-* **Tech Stack:** HTML, CSS, Python, Flask Json.
+Security: Remote server management and troubleshooting via SSH (PuTTY).
+Tech Stack: Nginx/Apache, Linux (AlmaLinux), SSH
 
-### 2. Server Administration & Load Balancing 
-*Nov 2025 - Dec 2025*
-* **Deskripsi:** Konfigurasi dan optimalisasi performa web server menggunakan teknik Load Balancing untuk membagi trafik secara efisien.
-* **Keamanan:** Manajemen server jarak jauh (remote) dan troubleshooting menggunakan protokol SSH (PuTTY).
-* **Tech Stack:** Nginx/Apache, Linux (Almalinux), SSH.
 
-### 3. Data Mining Analysis Project
-*Aug 2025 - Dec 2025*
-* **Deskripsi:** Melakukan *preprocessing* dan analisis pada dataset besar untuk mengidentifikasi pola dan tren bisnis.
-* **Tujuan:** Mengekstrak wawasan (insights) yang dapat ditindaklanjuti untuk mendukung pengambilan keputusan.
-* **Tech Stack:** Python (Pandas).
+3. Data Mining Analysis Project
+Aug 2025 – Dec 2025
+Performed preprocessing and analysis on large datasets to identify patterns and business trends.
 
-## 💼 Pengalaman Organisasi
+Goal: Extract actionable insights to support data-driven decision-making.
+Tech Stack: Python (Pandas)
 
-**Himpunan Mahasiswa Sistem Komputer (HIMA) Unsri** 
-*Staff Divisi Sekretari (Maret 2025 - Sekarang)* 
-* Mengelola korespondensi administrasi internal & eksternal serta pengarsipan database anggota.
-* Menyusun proposal dan laporan pertanggungjawaban (LPJ) kegiatan mahasiswa.
-* Bekerja sama dengan divisi lain untuk mendukung administrasi event besar kampus.
 
-## 🛠️ Teknologi & Tools
+4. Birthday Greeting Web App
+Feb 2026
+An interactive web application to display personalized birthday greetings with attractive visuals and dynamic animations.
 
-Daftar teknologi yang saya gunakan dalam pengembangan proyek dan perkuliahan:
+Goal: Create a more personal and engaging digital greeting experience compared to traditional greeting cards.
+Features: Greeting cards, animated birthday candles that can be "blown out," confetti/visual effects, background music, and responsive design.
+Tech Stack: HTML, CSS, ReactJS
 
-* **Languages:** Python, PHP, HTML, CSS, JavaScript.
-* **System & Network:** Linux Administration, Load Balancing, SSH Remote Access.
-* **Tools:** VS Code, Microsoft Office, PuTTY.
-* **Frontend Framework:** React.js, Tailwind CSS (Digunakan pada web portofolio ini).
 
-## 📂 Struktur Folder Proyek
+💼 Organization Experience
+Google Developer Groups on Campus, Universitas Sriwijaya
+Frontend Member — January 2026 – Present
+Built interactive and responsive web applications using modern frontend technologies and UI/UX principles.
+Lab. Internet Programming, Faculty of Computer Science, Sriwijaya University
+Laboratory Assistant — March 2026 – Present
+Guided students in web development practicum sessions and supported structured learning environments.
+Himpunan Mahasiswa Sistem Komputer (HIMA) Unsri
+Staff, Secretariat Division — March 2025 – December 2025
 
-Berdasarkan struktur source code saat ini:
+Managed internal and external administrative correspondence and maintained member database records.
+Prepared proposals and accountability reports (LPJ) for student activities.
+Collaborated with other divisions to support administration of major campus events.
 
-```bash
-├── public/
-│   └── image/           # Penyimpanan aset gambar project
-├── src/
-│   ├── assets/          # Aset statis (logo, icon)
-│   ├── components/      # Komponen UI Modular
-│   │   ├── Experience.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Navbar.jsx
-│   │   └── Projects.jsx
-│   ├── App.jsx          # Layout Utama
-│   ├── main.jsx         # Entry Point React
-│   └── index.css        # Konfigurasi Tailwind Global
-├── index.html
-└── vite.config.js
 
-💻 Cara Menjalankan (Installation Guide)
-Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputermu:
-
-Clone Repository Buka terminal dan download source code ini:
-
-git clone [https://github.com/enjeliaa/Web-Portofolio-Anjeliaa.git](https://github.com/enjeliaa/Web-Portofolio-Anjeliaa.git)
-Masuk ke Folder Proyek
-
-cd Web-Portofolio-Anjeliaa
-Install Dependencies Install semua library yang dibutuhkan (React, Tailwind, dll):
-
-npm install
-Jalankan Server Lokal Hidupkan website dalam mode development:
-
-npm run dev
-Buka di Browser Klik link yang muncul di terminal, biasanya: http://localhost:5173
+🛠️ Tech & Tools
+CategoryDetailsLanguagesPython, PHP, HTML, CSS, JavaScriptFrontend FrameworkReact.js, Tailwind CSSSystem & NetworkLinux Administration, Load Balancing, SSH Remote AccessToolsVS Code, Microsoft Office, PuTTY
