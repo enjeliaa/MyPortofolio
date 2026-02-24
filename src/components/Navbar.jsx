@@ -10,7 +10,7 @@ const Navbar = () => {
         {/* Logo dengan Gradient */}
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
             <span className="self-center text-2xl font-bold whitespace-nowrap text-white">
-              Portofolio<span className="text-blue-500">.</span>
+              MyPortofolio<span className="text-blue-500">.</span>
             </span>
         </a>
 
