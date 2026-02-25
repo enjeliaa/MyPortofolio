@@ -52,7 +52,7 @@ const Hero = () => {
   <img
     src="/image/ppweb.jpeg"
     alt="Anjelia Hidayat"
-    className="w-70 h-70 lg:w-80 lg:h-80 object-cover rounded-full border-4 border-blue-600 shadow-lg"
+    className="w-60 h-60 lg:w-75 lg:h-75 object-cover rounded-full border-4 border-blue-600 shadow-lg"
   />
 </div>
 
